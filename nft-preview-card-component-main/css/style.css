@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: rgba(3, 16, 38, 0.915);
+    color: #fff;
+}
+
+body main{
+    background:  rgba(22, 45, 85, 0.915);
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 20px  rgba(1, 10, 25, 0.915);
+
+}
+
+figcaption{
+    text-align: center;
+}
+figcaption img{
+    border-radius: 15px;
+}
+
+.descricao h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.descricao p{
+    color:  rgba(76, 131, 226, 0.915);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.informacoes img{
+    margin-right: 10px;
+    width: 20px;
+}
+
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    color: aqua;
+    font-size: 30px;
+}
+
+hr {
+	border: 0;
+	border-top: 2px solid #094CFA;
+}
+
+.creditos img{
+    width: 30px;
+    margin-right: 10px;
+}
+.creditos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    color: #dbe3f874;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.attribution a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.attribution {
+    margin-left: 50px;
+    margin-top: 50px;
+}
